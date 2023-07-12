@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer fixed-bottom mt-2">
+    <div className="footer mt-2">
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <a className="nav-link" href="https://github.com/shannonkprice00" target="_blank">

@@ -1,3 +1,6 @@
-/* .page-container {
-    height: 85vh;
-} */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 115px);
+}
+
