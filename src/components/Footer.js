@@ -10,7 +10,7 @@ function Footer() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://www.linkedin.com/in/shannon-price-68a2516b?original_referer=" target="_blank">
+          <a className="nav-link" href="https://www.linkedin.com/in/shannonkprice00?original_referer=" target="_blank">
             LinkedIn
           </a>
         </li>
