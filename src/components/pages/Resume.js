@@ -4,22 +4,29 @@ import "../../styles/pages.css";
 export default function Resume() {
   return (
     <div className="container-fluid page-container">
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <p>Download my <a href="./assets/resume.pdf" target="_blank">resume</a></p>
+      <h5>Front-end Proficiencies</h5>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Bootstrap</li>
+        <li>jQuery</li>
+        <li>Google Fonts</li>
+        <li>Day.js</li>
+        <li>React</li>
+      </ul>
+      <h5>Back-end Proficiencies</h5>
+      <ul>
+        <li>APIs</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>SQL, Squelize</li>
+        <li>MongoDB, Mongoose</li>
+        <li>REST</li>
+        <li>GraphQL</li>
+      </ul>
     </div>
   );
 }

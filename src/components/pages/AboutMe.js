@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <div className="container-fluid page-container">
       <h2 id="about-me">About Me</h2>
-      <div className="about-me">
+      <div className="about-me d-flex">
         <img
           src="./assets/Headshot1.JPEG"
           alt="image of Shannon"

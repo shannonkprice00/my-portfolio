@@ -3,7 +3,7 @@ import "../styles/Navbar.css";
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <div className="container-fluid m-0">
+    <div className="nav-container container-fluid m-0 p-0">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <h2>Shannon Price</h2>
         <button

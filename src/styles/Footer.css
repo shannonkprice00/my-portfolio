@@ -1,0 +1,10 @@
+.footer {
+    height: 3rem;
+}
+.nav .footer {
+    align-items: center;
+}
+
+#github-black:hover {
+    opacity: .75;
+}

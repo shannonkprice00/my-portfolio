@@ -1,6 +1,38 @@
+.navcontainer {
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+}
+
 .navbar {
-  height: 50%;
-  /* display: flex;
-  justify-content: flex-end; */
+  height: 13vh;
+}
+
+.navbar h2 {
+  font-size: 3rem;
+  color: #04151F;
+  margin-left: 2rem;
+}
+
+.navbar a {
+  font-size: 1.25rem;
+  color: #04151F;
+  background-color: #7C898B;
+  border-radius: 10%;
+  margin-left:.2rem;
+  padding: .1rem;
+}
+
+.navbar a:hover {
+  color: #FAFAFA;
+}
+
+.nav-link .active {
+  color: #FAFAFA;
+}
+
+#navbarNav {
+  margin-right: 2rem;
+  color: #011638;;
 }
 
