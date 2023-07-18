@@ -7,7 +7,7 @@ export default function Resume() {
     <div className="container-fluid page-container">
       <h3 id="resume-heading">Download my <a id="resume-link" href="./assets/resume.pdf" target="_blank">resume</a></h3>
       <div id="resume-card-div" className="row">
-        <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12 mb-3 mb-sm-0">
+        <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12 mb-3 mb-sm-0 d-flex justify-content-center">
           <div className="card proficiency-cards">
             <div className="card-body">
               <h5 className="card-title proficiency-titles">Front-end Proficiencies</h5>
@@ -25,7 +25,7 @@ export default function Resume() {
             </div>
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12">
+        <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12 d-flex justify-content-center">
           <div className="card proficiency-cards">
             <div className="card-body">
               <h5 className="card-title proficiency-titles">Back-end Proficiencies</h5>
