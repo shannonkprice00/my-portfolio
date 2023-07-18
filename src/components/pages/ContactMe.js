@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../../styles/pages.css";
-import ThankYou from "./ThankYou";
+import "../../styles/ContactMe.css";
 
-export default function ContactMe({ formSubmitted, handleContactForm }) {
+export default function ContactMe() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -42,14 +42,10 @@ export default function ContactMe({ formSubmitted, handleContactForm }) {
     }
   };
 
-  const handleSubmit = () => {
-    handleContactForm();
-    console.log(handleContactForm);
-  }
   
 
   return (
-    <div className="container-fluid page-container">
+    <div className="container-fluid page-container d-flex align-items-center justify-content-center">
       <form id="contact-form" className="card">
         <div className="card-header">Contact Me</div>
         <div className="card-body">
@@ -100,7 +96,7 @@ export default function ContactMe({ formSubmitted, handleContactForm }) {
           <div id="error-message">
             {errorMessageText}
           </div>
-          <button id="submit-button" type="submit" className="btn btn-primary" onClick={handleSubmit}>
+          <button id="submit-button" type="submit" className="btn btn-primary">
             Submit
           </button>
         </div>

@@ -49,23 +49,28 @@ const projects = [
 
 export default function Project() {
   return (
-    <div className="container-fluid d-flex page-container">
-      <h1>My Portfolio</h1>
-      {projects.map((project) => (
-        <div key={project.id} className="project">
-          <label className="project-label">
-            <p>{project.projectTitle}</p>
-            <a href={project.repoLink} target="_blank"><img src="./assets/github-mark.png"/></a>
-          </label>
-          <a href={project.deployedAppLink} target="_blank">
-            <img
-              src={project.imageSrc}
-              alt="image of project-1"
-              className="project-images"
-            />
-          </a>
-        </div>
-      ))}
+    <div>
+      <h1 id="my-portfolio-header">My Portfolio</h1>
+      <div className="container d-flex flex-wrap page-container">
+        {projects.map((project) => (
+          <div key={project.id} className="project">
+            <label className="project-label text-overlay">
+              <a className="project-title" href={project.repoLink} target="_blank">{project.projectTitle}
+                <a href={project.repoLink} target="_blank">
+                  <img className="small-logo" src="./assets/github-mark-black.png" />
+                </a>
+              </a>
+            </label>
+            <a href={project.deployedAppLink} target="_blank">
+              <img
+                src={project.imageSrc}
+                alt="image of project-1"
+                className="project-images"
+              />
+            </a>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

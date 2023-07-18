@@ -1,0 +1,99 @@
+.proficiency-titles {
+    font-weight: bold; 
+}
+
+.card {
+    width: 35vw;
+}
+
+#resume-heading {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    color: #040607; 
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #a7a6a6;
+}
+
+#resume-link {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    color: rgb(135, 2, 2); 
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #a7a6a6;
+}
+
+#resume-card-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#resume-link:hover {
+    color: rgb(204, 124, 124);
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 70vw;
+       }
+
+    #resume-heading {
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        color: #040607; 
+        text-decoration: underline;
+        text-shadow: 2px 2px 4px #a7a6a6;
+    }
+
+    #resume-link {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        color: rgb(135, 2, 2); 
+        font-style: italic;
+        text-decoration: none;
+        text-shadow: 2px 2px 4px #a7a6a6;
+    }
+    #resume-card-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media (max-width: 428px) {
+   .card {
+    width: 70vw;
+   }
+
+    #resume-heading {
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        color: #040607; 
+        text-decoration: underline;
+        text-shadow: 2px 2px 4px #a7a6a6;
+    }
+
+    #resume-link {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        color: rgb(135, 2, 2); 
+        font-style: italic;
+        text-decoration: none;
+        text-shadow: 2px 2px 4px #a7a6a6;
+    }
+
+    #resume-card-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }

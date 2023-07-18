@@ -1,37 +1,101 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
 .project-images {
-    border: 4px solid #3c6f72;
+    border: 4px solid rgb(135, 2, 2);
     margin-bottom: 15px;
     max-width: 401px;
     height: auto;
+    border-radius: 10px;
 }
 
 .project {
+    padding: 10px;
+    width:fit-content;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.project-label {
+.text-overlay {
     position: absolute;
-    background-color: #a57e8d;
-    border: 2px solid #3c6f72;
-    font-size: 1rem;
-    height: fit-content;
-    margin-top: 9%;
-    padding: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.project-label .project-title {
+    display: flex;
+    justify-content: space-around;
+    min-width: 16rem;
+    background-color: #FAFAFA;
+    border: 1px solid rgb(135, 2, 2);
+    border-radius: 15px;
+    padding: .25rem;
+    text-shadow: 1px 1px 4px #636161;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(135, 2, 2);
     z-index: 1;
 }
 
-.project-label p {
-    margin-bottom: 0;
+.small-logo {
+    width: 2.1rem;
+    height: auto;
 }
 
-.project-label a {
-    color: #3c6f72;
+.project-label {
+    width: 15rem;
+    z-index: 1;
+}
+
+.project-label:hover {
+    visibility: visible;
 }
 
 .project img {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .project img:hover {
     opacity: 1;
+}
+
+#my-portfolio-header {
+    margin-top: 2.5rem;
+    margin-left: 8rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.75rem;
+    color: #040607; 
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #a7a6a6;
+}
+
+@media (max-width: 1000px) {
+    #my-portfolio-header {
+        margin: 3% 0 3% 0;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 422px) {
+    #my-portfolio-header {
+      margin: 10% 0 10% 0;
+      text-align: center;
+      font-size: 1.75rem;
+    }
+    .project-images {
+        border: 4px solid rgb(135, 2, 2);
+        margin-bottom: 15px;
+        max-width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+
 }
