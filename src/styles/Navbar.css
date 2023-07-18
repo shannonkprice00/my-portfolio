@@ -4,10 +4,6 @@
   font-family: 'PT Sans', sans-serif;;
 }
 
-.navbar {
-  height: 13vh;
-}
-
 .navbar h2 {
   font-size: 3rem;
   color: #e1e0e0;
@@ -37,11 +33,20 @@ a.nav-link.active {
   background-color: #040607 !important;
 }
 
-@media (max-width: 768px) {
+.navbar-toggler {
+  background-color: #FAFAFA !important;
+  margin-right: 2rem;
+}
+
+@media (max-width: 1000px) {
   .navbar h2 {
     font-size: 3rem;
     color: #e1e0e0;
     margin-left: 2rem;
+  }
+  a.nav-link {
+    margin-left: 2rem;
+    margin-bottom: 1rem; 
   }
 }
 
@@ -50,5 +55,17 @@ a.nav-link.active {
     font-size: 2.3rem;
     color: #e1e0e0;
     margin-left: 2rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .navbar h2 {
+    font-size: 2rem;
+    color: #e1e0e0;
+    margin-left: 2rem;
+  }
+
+  .navbar-toggler {
+    margin-right: 1rem;
   }
 }

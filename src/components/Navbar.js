@@ -7,6 +7,7 @@ function Navbar({ currentPage, handlePageChange }) {
       <nav id="navbar" className="navbar navbar-expand-lg bg-body-tertiary">
         <h2>Shannon Price</h2>
         <button
+          id="nav-button"
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
