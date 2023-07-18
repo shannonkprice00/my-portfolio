@@ -34,5 +34,5 @@ MIT License
 N/A
 
 ## Questions
-GitHub Profile: github.com/shannonkprice00
+GitHub Profile: github.com/shannonkprice00 <br>
 For further questions, you can reach me at shannonkprice00@gmail.com
