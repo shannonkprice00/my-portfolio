@@ -45,6 +45,13 @@ const projects = [
     imageSrc: "./assets/Password-Generator.png",
     repoLink: "https://github.com/shannonkprice00/Password-Generator",
   },
+  {
+    id: 7,
+    projectTitle: "Mindfulness Memior",
+    deployedAppLink: "https://morning-waters-68042-3ca90f8eed1f.herokuapp.com/",
+    imageSrc: "./assets/mindfulness-memior.png",
+    repoLink: "https://github.com/JenWariner19/mental-health-tracker",
+  },
 ];
 
 export default function Project() {
