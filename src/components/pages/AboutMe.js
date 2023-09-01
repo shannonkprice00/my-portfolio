@@ -14,16 +14,20 @@ export default function AboutMe() {
           className="responsive-img"
         />
         <p>
-          <b>Hello!</b> I am a former healthcare clinician who is excited to put
-          to use the new skills I have recently aquired in web development. I am
-          looking to use my on the ground clinical experience combined with my
-          new web development skills to improve applications in the healthcare
-          field. I possess a unique perspective, extreme attention to detail,
-          and a perfectionistic drive which will make me a great asset to any
-          organization. Please look through the work samples I have provided and
-          use the contact information at the end of the page if you have any
-          questions. I look forward to a dynamic career in web development where
-          I can be a <i>difference maker</i> to <b>your</b> team!
+          <b>Hello!</b> With a passion for problem-solving and a strong
+          foundation in software development, I am eager to contribute my skills
+          and knowledge as a Software Engineer. Through an intensive bootcamp
+          certification, I have gained hands-on experience in programming
+          languages, frameworks, and technologies, including JavaScript,
+          HTML/CSS, SQL, React.js, MongoDB and much more. My commitment to
+          excellence has allowed me to quickly learn new applications and gain
+          recognition as a leader in the classroom. Before I dove into
+          technology, I gained professional experience as a Physical Therapist
+          Assistant. In this career, I collaborated with internal partners to
+          deliver exceptional client care. My strong analytical skills and
+          attention to detail empowered me to identify and rectify issues
+          promptly, ensuring smooth project execution. Please visit the
+          portfolio section to view my skills in action!
         </p>
       </div>
     </div>
